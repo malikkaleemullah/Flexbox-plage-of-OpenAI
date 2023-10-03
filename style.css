@@ -5,7 +5,6 @@ body{
     display: flex;
     width: 100%;
     height:fit-content;
-    background-color: black;
     flex-direction: column;
 }
 header{
@@ -20,10 +19,7 @@ header{
 .logo {
     width: 140px;
     height: 50px;
-}
-.logo {
     padding: 10px;
-    
 }
 .bar-icon {
     display: flex;
@@ -47,6 +43,18 @@ header{
     color: #FFFFFF; /* Set the color of the links */
     font-size: 28px;
     font-weight: 400;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.in-rightside-details5{
+    margin: 0 20px; /* Add margin between the links for spacing */
+    text-decoration: none;
+    color: #FFFFFF; /* Set the color of the links */
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: -0.28px;
+    font-weight: 400;
+    margin: 2px;
     font-family: 'Times New Roman', Times, serif;
 }
 .loginAndTriGPT {
@@ -141,8 +149,9 @@ header{
 .imageOfdivition4-details {
     width: 650px;
 }
-.divitin5{
+.divition5{
     background-color: #0000FF;
+    margin-bottom: 80px;
 }
 .image-container-bottomtext{
     font-size: 12px;
@@ -153,12 +162,13 @@ header{
     font-stretch: 100%;
 
 }
-.textportion2{
+.textportion2,.textportion3,.textportion4,.textportion5,.textportion6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
-.lefside-details{
+.lefside-details1,.lefside-details2,.lefside-details5{
     font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
     line-height: 52.8px;
@@ -171,7 +181,7 @@ header{
     width: 700px;
     color: #FFFFFF;
 }
-.rightside-details{
+.rightside-details1,.rightside-details2,.rightside-details5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     line-height: 33.6px;
@@ -184,4 +194,46 @@ header{
     margin: 0px;
 
 }
-
+.lefside-details3,.lefside-details4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    vertical-align: baseline;
+    letter-spacing: -0.28px;
+    font-weight: 700;
+    font-stretch: 100%;
+    text-align: start;
+    color: #FFFFFF;
+    margin: 0px;
+    width: 700px;  
+}
+.rightside-details3,.rightside-details4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 23.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.rightside-details1{
+    margin-bottom: 25px;
+}
+.SV{
+    margin-bottom: 70px;
+}
+.divition10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.imagecolumn1, .imagecolumn2, .imagecolumn3, .imagecolumn4 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-content: space-evenly;
+}
