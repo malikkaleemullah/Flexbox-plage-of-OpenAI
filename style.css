@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-img {
+.logo {
     width: 140px;
     height: 50px;
 }
@@ -114,6 +114,9 @@ img {
 .leftdivition {
     width: 1700px;
 }
+.divition3 {
+    padding-bottom: 60px;
+}
 .topText-details{
     font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
@@ -124,4 +127,61 @@ img {
     font-feature-settings: "liga";
     text-align: start;
     margin-top: 0px;
+    color: #FFFFFF;
 }
+.divition4 {
+    display: flex;
+    flex-direction: column;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imageOfdivition4-details {
+    width: 650px;
+}
+.divitin5{
+    background-color: #0000FF;
+}
+.image-container-bottomtext{
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 15.6px;
+    vertical-align: baseline;
+    font-weight: 400;
+    font-stretch: 100%;
+
+}
+.textportion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lefside-details{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    line-height: 52.8px;
+    vertical-align: baseline;
+    letter-spacing: -0.96px;
+    margin: 0px;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-feature-settings: "liga";
+    width: 700px;
+    color: #FFFFFF;
+}
+.rightside-details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    vertical-align: baseline;
+    letter-spacing: -0.26px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    color: #FFFFFF;
+    margin: 0px;
+
+}
+
