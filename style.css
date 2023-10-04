@@ -8,13 +8,16 @@ body{
     flex-direction: column;
 }
 header{
-    padding-top:10px;
+    padding:10px;
+    margin-top: 0px;
     display: flex;
     width: 100%;
     height: 60px;
     background-color: #000000;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 .logo {
     width: 140px;
@@ -60,6 +63,7 @@ header{
 .loginAndTriGPT {
     display: flex;
     justify-content: center;
+    margin-right: 20px;
 }
 .transparent-button {
     background-color: transparent; /* Set the background color to transparent */
@@ -162,11 +166,19 @@ header{
     font-stretch: 100%;
 
 }
-.textportion2,.textportion3,.textportion4,.textportion5,.textportion6, .textportion7{
+.textportion2,.textportion3,.textportion4,.textportion5,.textportion6, .textportion7
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 60px;
+}
+.textportion9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    align-items: baseline;
 }
 .lefside-details1,.lefside-details2,.lefside-details5{
     font-family: 'Times New Roman', Times, serif;
@@ -180,6 +192,24 @@ header{
     font-feature-settings: "liga";
     width: 700px;
     color: #FFFFFF;
+}
+.lefside-details8{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 23.4px;
+    vertical-align: baseline;
+    letter-spacing: -0.96px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-feature-settings: "liga";
+    text-align: start;
+    vertical-align: baseline;
+    color: #FFFFFF;
+}
+.rightside-end-bar-icon{
+    margin-right:20px;
 }
 .rightside-details1,.rightside-details2,.rightside-details5{
     font-family: Arial, Helvetica, sans-serif;
@@ -237,7 +267,7 @@ header{
     width: 320px;
     justify-content: space-evenly;
 }
-.rightside-details7,.lefside-details8 {
+.rightside-details7 {
     margin: 18px 0px 0px; /* Add margin between the links for spacing */
     text-decoration: none;
     color: #FFFFFF; /* Set the color of the links */
